@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*  HEADER */ 
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header .row  {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem;
+}
+
+#menu{
+    display: flexbox;
+    justify-content: space-around;
+}
+
+
+.circulos{
+    background-color: rgb(241, 242, 193);
+    height: 70px;
+    margin-left: (100vw / 2);
+
+}
+.circulos>a {
+    flex-direction: column;
+}
+
+.circulos img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid violet;
+    padding: 0.2rem;
+}
+
+header .logo {
+    background-color: rgb(244, 199, 141);
+}
+
+/*  MAIN  */
+main{
+    height: calc(100vh - 140px)
+}
+
+#busqueda{
+    width: calc(100vw / 2);
+    margin-left: calc((100vw / 4));
+    margin: 2rem auto 2rem calc((100vw / 4));
+    height: 2rem;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 1rem;
+}
+
+.carousel{
+    display: inline-block;
+
+}
+
+.carousel img {
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+footer{
+    height: 70px;
+    display: flex;
+    flex-direction: row; 
+    background-color: rgb(49, 169, 137);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: calc(100vw - 10%);
+    margin-left:  calc((100vw - 90%) / 2);
+}
+
+.social, .copyright{
+    background-color: aqua;
+}
+
+.app{
+    background-color: rgb(0, 255, 98);
+}

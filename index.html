@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sale Recetas - Grupo 6 San Tec</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+
+
+<body>
+
+    <header class=" container-fluid">
+        <div class="row ">
+            <div class="col logo">
+                <a href="./index.html">
+                    <img alt="logo del sitio sale recetas" src="./assets/img/sale_recetas_logo.jpg" height="70px"> </a>
+                <h1>Sale Recetas </h1>
+            </div>
+            <div class="col slogan">
+                <h2>¡Hagamos del COCINAR algo simple y divertido!</h2>
+            </div>
+            <div class="col inicio">
+                <button>Iniciar Sesión</button>
+                <a href="./pages/blog.html" title="Blog">
+                    <i class="fa-solid fa-shapes"></i> Blog - Compartí tu receta </a>
+            </div>
+        </div>
+
+        <div class="row" id="menu">
+            <nav class="col circulos ">
+                <a href="./pages/recetas.html?id=1" title="Recetas">
+                    <img src="./assets/img/almuerzo.jpeg" height="60" alt=""> Almuerzo / Cena</a>
+                <a href="./pages/recetas.html?id=2" title="Desayuno">
+                    <img src="./assets/img/desayunos.jpeg" height="60" alt=""> Desayuno</a>
+                <a href="./pages/recetas.html?id=3" title="Bebidas">
+                    <img src="./assets/img/Bebidas.webp" height="60" alt=""> Bebidas</a>
+                <a href="./pages/recetas.html?id=4" title="Entradas">
+                    <img src="./assets/img/entradas.jpeg" height="60" alt=""> Entradas</a>
+                <a href="./pages/recetas.html?id=5" title="Postres">
+                    <img src="./assets/img/postres.webp" height="60" alt=""> Postres</a>
+                <a href="./pages/recetas.html?id=6" title="Reposteria">
+                    <img src="./assets/img/reposteria.jpeg" height="60" alt=""> Reposteria</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- search bar -->
+        <form>
+            <input name="texto" type="search" id="busqueda" placeholder="Buscar una receta">
+        </form>
+
+        <div class="carousel">
+            <a aria-current="page" href="./pages/recetas_detalle.html?2">
+                <img src="./assets/img/ensalada_sabrosa.webp" height="70" alt="ensalada"> <span> Ensaladas Sabrosa</a>
+            </span>
+            <a aria-current="page" href="./pages/recetas_detalle.html?12">
+                <img src="./assets/img/carne_al_horno.webp" alt=""> Carnes al horno</a>
+            <a aria-current="page" href="./pages/recetas_detalle.html?22">
+                <img src="./assets/img/pasta_rellena.webp" alt=""> Pastas rellena</a>
+            <a aria-current="page" href="./pages/recetas_detalle.html?3">
+                <img src="./assets/img/postre_helado.webp" alt=""> Postres Helado</a>
+            <a aria-current="page" href="./pages/recetas_detalle.html?32">
+                <img src="./assets/img/pan_cacero_integral.webp" alt=""> Panadería Cacera</a>
+            <a aria-current="page" href="./pages/recetas_detalle.html?42">
+                <img src="./assets/img/reposteria.jpeg" alt=""> Especiales de cumpleaños</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="col">
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank" title="Buscanos en Instagram">
+                    <i class="fa-brands fa-instagram"></i> </a>
+                <a href="https://www.facebook.com/" target="_blank" title=" Nuestra red de Facebook">
+                    <i class="fa-brands fa-facebook-f"></i> </a>
+                <a href="https://web.whatsapp.com/" target="_blank" title="Nuestro Whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> </a>
+            </div>
+            <div class="col copyright">
+                <a href="#" target="_blank">
+                    <i class="fa-solid fa-hashtag">Leandro Martinez</i> </a>
+                <a href="#" target="_blank">
+                    <i class="fa-solid fa-hashtag">Leonardo Martinez</i> </a>
+            </div>
+
+        </div>
+        <div class="col app">
+            <h4>Descargá gratis nuestra App</h4>
+            <i class="fa-brands fa-android"> <button>Google Store </button> </i>
+            <i class="fa-brands fa-apple"><button>App Store </button></i>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
