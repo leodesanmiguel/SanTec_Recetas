@@ -13,7 +13,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- bootstrap 5.3 -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <div class="logo-categorias">
             <div class="logo">
                 <a href="./index.html">
-                    <img src="../assets/img/sale_recetas_logo.jpg" height="70" alt="logo de sale recetas"> 
+                    <img src="../assets/img/sale_recetas_logo.png" height="70" alt="logo de sale recetas"> 
                 </a>
             </div>
 
@@ -64,37 +64,38 @@
         
             <div class="grid-cards">
                 
-                <div class="card">
+                <div class="micard">
                     <div class="imagen" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)"></div>
                     <p class="dificultad">Fácil</p>
-                    <a class="boton-detalle" href="#">Mayonesa saborizada</a>
+
+                    <a class="boton-detalle" href="#" data-bs-toggle="modal" data-bs-target="#detalleModal">Mayonesa saborizada</a>
                 </div>
                 
-                <div class="card">
+                <div class="micard">
                     <div class="imagen" style="background-image: url(https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/5/como_hacer_arroz_chino.webp)"></div>
                     <p class="dificultad">Fácil</p>
                     <a class="boton-detalle" href="#">Arroz chino</a>
                 </div>
                 
-                <div class="card">
-                    <div class="imagen" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)"></div>
+                <div class="micard">
+                    <div class="imagen" style="background-image: url(https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/1112/carbonata.webp)"></div>
                     <p class="dificultad">Fácil</p>
-                    <a class="boton-detalle" href="#">Mayonesa saborizada</a>
+                    <a class="boton-detalle" href="#">Salsa carbonara con nata</a>
                 </div>
                 
-                <div class="card">
-                    <div class="imagen" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)"></div>
+                <div class="micard">
+                    <div class="imagen" style="background-image: url(https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/1110/espaguetis_con_verduras.webp)"></div>
                     <p class="dificultad">Fácil</p>
-                    <a class="boton-detalle" href="#">Mayonesa saborizada</a>
+                    <a class="boton-detalle" href="#"> Espaguetis con verduras</a>
                 </div>
                 
-                <div class="card">
+                <div class="micard">
                     <div class="imagen" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)"></div>
                     <p class="dificultad">Fácil</p>
                     <a class="boton-detalle" href="#">Mayonesa saborizada</a>
                 </div>
 
-                <div class="card">
+                <div class="micard">
                     <div class="imagen" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)"></div>
                     <p class="dificultad">Fácil</p>
                     <a class="boton-detalle" href="#">Mayonesa saborizada</a>
@@ -104,9 +105,56 @@
 
         </section>
     
-        <!-- <div class="modal-dialog modal-xl">...</div> -->
-
     </main>
+  
+  <!-- Modal -->
+ 
+  <div class="modal fade" id="detalleModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Mayonesa saborizada</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+
+            <div class="col-md-4 foto-receta" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)">  </div>  
+
+            <div class="instrucciones"> 
+                <p> <b> Tiempo: </b>  30 minutos <br>
+                    <b>Comensales:</b>  2 <br>
+                    <b>Dificultad:</b>  Difícil <br> 
+                    <b>Chef:</b>  El gato Martinez <br> 
+                    <br>
+                    <b>Ingredientes: </b>
+                    <ul>
+                    <li>- 1 unidad de cebolla</li>
+                    <li>- 2 cucharada de azúcar</li>
+                    <li>- 2 taza de arroz</li>
+                    <li>- 0.5 taza de Jamón</li>
+                    <li>- 2 cucharada de Manteca</li>
+                    <li>- 4 diente de Diente de ajo</li>
+                    <li>- 0.5 taza de uvas</li>
+                    <li>- 2 cucharada de nueces</li>
+                    <li>- 4 taza de coca cola</li>
+                </ul>
+                    <b>Preparación:</b> <br>
+                    Preparar los ingredientes <br>
+                    Sofreír la cebolla y el ajo cortado en las dos cucharadas de manteca <br>
+                    Agregarle un punto de sal para resaltar el sabor, cuando este medio transparente agregarle el jamón, revolver y agregar las nueces y las pasas seguir revolviendo y agregar el arroz <br>
+                    Luego agregar la gaseosa y la cucharada de azúcar tapar y cocinar cuando seque poner a fuego mínimo por 10 minutos apagar y dejar tapado por 10 minutos más <br>
+            </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <!--     <footer>
@@ -139,7 +187,7 @@
 
 
 <!-- bootstrap 5.3 -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 
 </html>
