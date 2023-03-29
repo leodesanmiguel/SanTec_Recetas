@@ -13,47 +13,63 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!-- bootstrap 5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous"> -->
 </head>
 
 <body>
 
-    <header class="container-fluid">
-        <div class="row ">
-            <div class="col logo">
+    <header>
+        <div class="logo-categorias">
+            <div class="logo">
                 <a href="./index.html">
-                    <img alt="logo del sitio sale recetas" src="../assets/img/sale_recetas_logo.jpg" height="70px"> </a>
-                <h1>Sale Recetas </h1>
+                    <img src="../assets/img/sale_recetas_logo.jpg" height="70" alt="logo de sale recetas"> 
+                </a>
             </div>
-            <div class="col slogan">
-                <h2>¡Hagamos del COCINAR algo simple y divertido!</h2>
+
+            <div class="contenedor-categorias" >
+                <div class="categoria">
+                    <img src="../assets/img/almuerzo.jpeg" class="plato" alt="Almuerzo">
+                    <a href="../pages/recetas.html"> Almuerzo y Cena</a>
+                </div>
+                <div class="categoria">
+                    <img src="../assets/img/desayunos.jpeg" class="plato" alt="Desayuno">
+                    <a href="../pages/recetas.html"> Desayuno</a>
+                </div>
+                <div class="categoria">
+                    <img src="../assets/img/Bebidas.webp" class="plato" alt="Bebidas">
+                    <a href="../pages/recetas.html">Bebidas</a>
+                </div>
+                <div class="categoria">
+                    <img src="../assets/img/entradas.jpeg" class="plato" alt="Entradas">
+                    <a href="../pages/recetas.html"> Entradas</a>
+                </div>
+                <div class="categoria">
+                    <img src="../assets/img/Postres.webp" class="plato" alt="Postres">
+                    <a href="../pages/recetas.html"> Postres</a>
+                </div>
+                <div class="categoria">
+                    <img src="../assets/img/Reposteria.jpeg" class="plato" alt="Reposteria">
+                    <a href="../pages/recetas.html">Reposteria</a>
+                </div>
+
             </div>
-            
         </div>
 
-        <div class="row" id="menu">
-            <nav class="col circulos ">
-                <a href="./pages/recetas.html?id=1" title="Recetas">
-                    <img src="../assets/img/almuerzo.jpeg" height="60" alt=""> Almuerzo / Cena</a>
-                <a href="./pages/recetas.html?id=2" title="Desayuno">
-                    <img src="../assets/img/desayunos.jpeg" height="60" alt=""> Desayuno</a>
-                <a href="./pages/recetas.html?id=3" title="Bebidas">
-                    <img src="../assets/img/Bebidas.webp" height="60" alt=""> Bebidas</a>
-                <a href="./pages/recetas.html?id=4" title="Entradas">
-                    <img src="../assets/img/entradas.jpeg" height="60" alt=""> Entradas</a>
-                <a href="./pages/recetas.html?id=5" title="Postres">
-                    <img src="../assets/img/postres.webp" height="60" alt=""> Postres</a>
-                <a href="./pages/recetas.html?id=6" title="Reposteria">
-                    <img src="../assets/img/reposteria.jpeg" height="60" alt=""> Reposteria</a>
-            </nav>
-        </div>
+         <p class="slogan">¡Hagamos del COCINAR algo simple y divertido!</p>
     </header>
 
     <main>
-        <!-- search bar -->
-        <form>
-            <input name="texto" type="search" id="busqueda" placeholder="Buscar una receta">
-        </form>
+        <div class="grid-cards">
+
+            <div class="card">
+                <div class="imagen" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)"></div>
+                <p class="dificultad">Fácil</p>
+                <a class="boton-detalle" href="#">Mayonesa saborizada</a>
+            </div>
+          
+        </div>
+    
+
 
 
 
@@ -62,7 +78,7 @@
     </main>
 
 
-    <footer>
+<!--     <footer>
         <div class="col">
             <div class="social">
                 <a href="https://www.instagram.com/" target="_blank" title="Buscanos en Instagram">
@@ -88,11 +104,11 @@
 
 
     </footer>
+ -->
 
 
-    
 <!-- bootstrap 5.3 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> -->
 </body>
 
 </html>

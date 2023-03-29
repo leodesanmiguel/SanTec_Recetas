@@ -4,36 +4,37 @@
     box-sizing: border-box;
 }
 
-/*  HEADER */ 
+/*  HEADER */
 header {
-    height: 20vh;
+    min-height: 150px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-header .row  {
+.logo-categorias {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.contenedor-categorias {
     display: flex;
     justify-content: space-between;
-    margin: 0.2rem;
+    margin: 0.4rem;
 }
 
-#menu{
-    display: flexbox;
-    justify-content: space-around;
-}
-
-
-.circulos{
-    background-color: rgb(241, 242, 193);
-    height: 70px;
-    margin-left: (100vw / 2);
-
-}
-.circulos>a {
+.categoria { 
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    row-gap: 0.5rem;
+    width: 8rem;
 }
 
-.circulos img {
+.plato {
     width: 60px;
     height: 60px;
     object-fit: cover;
@@ -41,53 +42,47 @@ header .row  {
     border: 2px solid violet;
     padding: 0.2rem;
 }
-
-header .logo {
-    background-color: rgb(244, 199, 141);
+.slogan{
+    font-style: italic;
 }
 
 /*  MAIN  */
-main{
-    height: calc(100vh - 140px)
+main {
+    background-color: beige;
 }
 
-#busqueda{
-    width: calc(100vw / 2);
-    margin-left: calc((100vw / 4));
-    margin: 2rem auto 2rem calc((100vw / 4));
-    height: 2rem;
-    text-align: center;
-    border: 2px solid blue;
-    border-radius: 1rem;
-}
-
-.carousel{
-    display: inline-block;
-
-}
-
-.carousel img {
-    height: 300px;
-    border-radius: 20px;
-}
-
-/* FOOTER */
-footer{
-    height: 10vh;
+.grid-cards{
     display: flex;
-    flex-direction: row; 
-    background-color: rgb(49, 169, 137);
     justify-content: space-between;
-    align-items: center;
+    flex-grow: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+  }
+  
+  .imagen {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .dificultad {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .boton-detalle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    width: calc(100vw - 10%);
-    margin-left:  calc((100vw - 90%) / 2);
-}
-
-.social, .copyright{
-    background-color: aqua;
-}
-
-.app{
-    background-color: rgb(0, 255, 98);
-}
+    padding: 10px;
+  }
+  
