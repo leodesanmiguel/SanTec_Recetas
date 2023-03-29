@@ -44,23 +44,34 @@ header {
 }
 .slogan{
     font-style: italic;
+    padding: 15px;
 }
 
 /*  MAIN  */
-main {
-    background-color: beige;
+.section-gridcards {
+    max-width: 960px;
+    margin-left: calc((100% - 960px) / 2);
+}
+section h3{
+    font-size: x-large;
+    color: #7a3100e0;
+    font-style: italic;
+    padding: 30px;
+    text-align: center;
 }
 
 .grid-cards{
     display: flex;
-    justify-content: space-between;
-    flex-grow: 10px;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+row-gap: 50px; column-gap: 30px;
 }
 
 .card {
     width: 300px;
-    height: 400px;
+    height: 300px;
     position: relative;
+    border-radius: 10px;
   }
   
   .imagen {
@@ -68,21 +79,32 @@ main {
     width: 100%;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
   }
   
   .dificultad {
     position: absolute;
     top: 10px;
     right: 10px;
+    color: #400f00;
+    font-style: italic;
+    font-size: large;
   }
   
   .boton-detalle {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #333;
+    height: 60px;
+    background-color: #8b220394;
     color: #fff;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   
