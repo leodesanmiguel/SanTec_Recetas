@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <header>
         <div class="logo-categorias">
             <div class="logo">
@@ -60,7 +59,7 @@
 
     <main>
         <section class="section-gridcards">
-            <h3>Almuerzo y cena</h3>
+            <h3 class="titulo-categoria">Almuerzo y cena</h3>
         
             <div class="grid-cards">
                 
@@ -108,9 +107,8 @@
     </main>
   
   <!-- Modal -->
- 
   <div class="modal fade" id="detalleModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
       <div class="modal-content">
 
         <div class="modal-header">
@@ -120,16 +118,18 @@
 
         <div class="modal-body">
 
-            <div class="col-md-4 foto-receta" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)">  </div>  
-
+            <div class="col-md-4 foto-receta" style="background-image: url(https://www.mdzol.com/u/fotografias/m/2022/8/4/f1456x819-1260274_1430644_5050.jpg)">  
+                 <a href="#" class="like"> <i class="fa fa-heart" aria-hidden="true"></i>  </a>
+            </div>
+            
             <div class="instrucciones"> 
                 <p> <b> Tiempo: </b>  30 minutos <br>
                     <b>Comensales:</b>  2 <br>
                     <b>Dificultad:</b>  Difícil <br> 
                     <b>Chef:</b>  El gato Martinez <br> 
                     <br>
-                    <b>Ingredientes: </b>
-                    <ul>
+                    <b>Ingredientes: </b> </p>
+                <ul>
                     <li>- 1 unidad de cebolla</li>
                     <li>- 2 cucharada de azúcar</li>
                     <li>- 2 taza de arroz</li>
@@ -156,35 +156,22 @@
     </div>
   </div>
 
-
-<!--     <footer>
-        <div class="col">
-            <div class="social">
-                <a href="https://www.instagram.com/" target="_blank" title="Buscanos en Instagram">
-                    <i class="fa-brands fa-instagram"></i> </a>
-                <a href="https://www.facebook.com/" target="_blank" title=" Nuestra red de Facebook">
-                    <i class="fa-brands fa-facebook-f"></i> </a>
-                <a href="https://web.whatsapp.com/" target="_blank" title="Nuestro Whatsapp">
-                    <i class="fa-brands fa-whatsapp"></i> </a>
-            </div>
-            <div class="col copyright">
-                <a href="#" target="_blank">
-                    <i class="fa-solid fa-hashtag">Leandro Martinez</i> </a>
-                <a href="#" target="_blank">
-                    <i class="fa-solid fa-hashtag">Leonardo Martinez</i> </a>
+    <!-- Footer -->
+    <footer>
+            <div class="RRSS">
+                <a class="navbar-brand" href="#"> <i class="fab fa-facebook-f" class="d-inline-block align-text-top"> </i>  </a>
+                <a class="navbar-brand" href="#"> <i class="fab fa-instagram"  class="d-inline-block align-text-top"> </i>  </a>
+                <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright</p>
+                <p>#L.Martinez.<sup>2</sup></p>
             </div>
 
-        </div>
-        <div class="col app">
-            <h4>Descargá gratis nuestra App</h4>
-            <i class="fa-brands fa-android"> <button>Google Store </button> </i>
-            <i class="fa-brands fa-apple"><button>App Store </button></i>
-        </div>
-
+            <div class="App">
+                <p style="font-size: small;">No te pierdas nuestra App</p>
+                <a class="navbar-brand" href="#"> <i class="fa-brands fa-android"> </i> Play Store</a>
+                <a class="navbar-brand" href="#"> <i class="fa-brands fa-apple"></i> App Store</a>
+            </div>
 
     </footer>
- -->
-
 
 <!-- bootstrap 5.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
