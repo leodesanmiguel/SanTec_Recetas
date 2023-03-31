@@ -207,3 +207,31 @@ footer p, footer a{
   z-index: 1;
   background: linear-gradient(0deg, rgba(139, 35, 3, 0.733) 25%, transparent 100%);
 }
+
+
+/* ACERCA.HTML */
+lite-youtube {
+  background-color: #000;
+  position: relative;
+  display: block;
+  contain: content;
+  background-position: center center;
+  background-size: cover;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.acerca{ 
+  min-height: 500px;
+  margin: 50px 0px;
+}
+
+.texto-nosotros p{
+  font-size: smaller;
+}
+
+.imagen-nosotros{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+}
