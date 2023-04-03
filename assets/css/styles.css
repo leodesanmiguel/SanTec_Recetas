@@ -251,16 +251,16 @@ lite-youtube {
 }
 
 .acerca{ 
-  min-height: 500px;
-  margin: 50px 0px;
-}
-
-.texto-nosotros p{
-  font-size: smaller;
-}
-
-.imagen-nosotros{
+  background-color: blanchedalmond;
   display: flex;
-  flex-direction: column;
-    justify-content: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+  margin: 50px 150px;
+}
+
+.texto-nosotros{
+  font-size: smaller;
+  margin: 50px 50px;
 }
