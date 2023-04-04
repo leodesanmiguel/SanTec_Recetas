@@ -272,3 +272,46 @@ lite-youtube {
   font-size: smaller;
   margin: 50px 50px;
 }
+
+/* index.html  Splide Paises */
+.splide-paises{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+}
+#carousel-heading{
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 3.5rem;
+}
+
+.splide{
+max-width: 960px;
+}
+
+.splide__track {
+  height: 22rem;
+}
+.splide__arrow{
+  top: 60% !important;
+}
+.plato-paises {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgb(83 50 0 / 30%);
+  padding: 0.2rem;
+
+  box-shadow: 5px 4px 5px 0px rgba(189,174,174,0.75);
+    -webkit-box-shadow: 5px 4px 5px 0px rgba(189,174,174,0.75);
+    -moz-box-shadow: 5px 4px 5px 0px rgba(189,174,174,0.75);
+}
+
+.splide__slide{
+align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
