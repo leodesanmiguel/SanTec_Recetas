@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sale Recetas</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+<!-- fontawesome 6.3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<!-- splide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+  </head>
+
+<body>
+  <header>
+    <div class="logo-categorias">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../assets/img/sale_recetas_logo.png" height="70" alt="logo de sale recetas"> 
+            </a>
+        </div>
+
+        <div class="contenedor-categorias" >
+            <div class="categoria">
+                <a href="../pages/recetas.html">
+                <img src="../assets/img/almuerzo.jpeg" class="plato" alt="Almuerzo">
+                 Almuerzo y Cena</a>
+            </div>
+            <div class="categoria">
+                <a href="../pages/recetas.html">
+                <img src="../assets/img/desayunos.jpeg" class="plato" alt="Desayuno">
+                 Desayuno</a>
+            </div>
+            <div class="categoria">
+                <a href="../pages/recetas.html">
+                <img src="../assets/img/Bebidas.webp" class="plato" alt="Bebidas">
+                Bebidas</a>
+            </div>
+            <div class="categoria">
+                <a href="../pages/recetas.html">
+                <img src="../assets/img/entradas.jpeg" class="plato" alt="Entradas">
+                 Entradas</a>
+            </div>
+            <div class="categoria">
+                <a href="../pages/recetas.html">
+                <img src="../assets/img/Postres.webp" class="plato" alt="Postres">
+                 Postres</a>
+            </div>
+            <div class="categoria">
+                <a href="../pages/recetas.html">
+                <img src="../assets/img/Reposteria.jpeg" class="plato" alt="Reposteria">
+                Reposteria</a>
+            </div>
+
+        </div>
+    </div>
+
+     <p class="slogan">¡Hagamos del COCINAR algo simple y divertido!</p>
+</header>
+
+    <main >
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/1181/bocata_de_atun.webp" class="d-block w-100 " alt="Bocata de atun">
+                <span class="sombra">
+                <div class="carousel-caption d-none d-md-block "> 
+                  <h5>Bocata de atún</h5>
+                  <p> El bocadillo de atún se encuentra entre los más populares y es que además de sacarnos de apuros en esos momentos donde no tenemos mucho tiempo para meternos en la cocina, es una opción fácil y sencilla para comer delicioso.</p>
+                </div> 
+              </span>
+              </div>
+              <div class="carousel-item">
+                <img src="https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/1180/brocoli_al_micro.webp" class="d-block w-100" alt="Brocoli al micro">
+                <span class="sombra">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brocoli al micro</h5>
+                  <p>El brócoli es una verdura que si o si debemos incluir en nuestras comidas, ya que nos ofrece una gran variedad de beneficios, como por ejemplo vitamina C, la vitamina K, ácido fólico, entre otros, además es bajo en calorías y alto en fibra.</p>
+                </div>
+              </span>
+              </div>
+
+              <div class="carousel-item">
+                <img src="https://elmundoenrecetas.s3.amazonaws.com/uploads/recipe/main_image/1178/albondigas_en_freidora_de_aire.webp" class="d-block w-100" alt="Albondigas en freidora de aire">
+                <span class="sombra">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Albondigas en freidora de aire</h5>
+                  <p>La freidora de aire o también conocida como airfryer, es uno de los electrodomésticos más demandados en la cocina durante estos últimos años, tanto por personas mayores como por personas jóvenes y esto es debido a lo sencillo, práctico y más saludable que cocina los alimentos.</p>
+                </div>
+              </span>
+              </div>
+            </div> 
+          
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+       <div class="splide-paises">
+      <section class="splide" aria-labelledby="carousel-heading">
+      <h3 id="carousel-heading">Recetas de todo el mundo</h3>
+      <div class="splide__track">
+        <ul class="splide__list" style="margin-top: 1rem;">
+          <li class="splide__slide">
+            <div class="splide__slide__container">
+              <img src="./assets/img/paises/argentina__1_.jpg" class="plato-paises">
+            </div>
+            <b> <i>  Argentina</i></b>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide__container">
+              <img src="./assets/img/paises/belgica.jpg" class="plato-paises">
+            </div>
+            <b> <i>   Bélgica</i></b>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide__container">
+              <img src="./assets/img/paises/bulgaria.jpg" class="plato-paises">
+            </div>
+            <b> <i>   Bulgaria</i></b>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide__container">
+              <img src="./assets/img/paises/china.jpg" class="plato-paises">
+            </div>
+            <b> <i>   China</i></b>
+          </li>
+          <li class="splide__slide">
+            <div class="splide__slide__container">
+              <img src="./assets/img/paises/corea.jpg" class="plato-paises">
+            </div>
+            <b> <i>   Corea</i></b>
+          </li>
+
+        </ul>
+      </div>
+
+    </section>
+  </div> 
+    
+  </main>
+
+  <!-- Footer -->
+    <footer>
+            <div class="RRSS">
+                <a class="navbar-brand" href="#"> <i class="fab fa-facebook-f" class="d-inline-block align-text-top"> </i>  </a>
+                <a class="navbar-brand" href="#"> <i class="fab fa-instagram"  class="d-inline-block align-text-top"> </i>  </a>
+                <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright #L.Martinez.<sup>2</sup></p>
+                <a href="./pages/acerca.html">¿Quiénes somos? </a>
+            </div>
+
+            <div class="App">
+                <p style="font-size: small;">No te pierdas nuestra App</p>
+                <a class="navbar-brand" href="#"> <i class="fa-brands fa-android"> </i> Play Store</a>
+                <a class="navbar-brand" href="#"> <i class="fa-brands fa-apple"></i> App Store</a>
+            </div>
+
+    </footer>
+
+<!-- bootstrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+ <!-- splide -->
+ <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+ 
+ <script>
+  /*
+  document.addEventListener( 'DOMContentLoaded', function() {
+     var splide = new Splide( '.splide' );
+    splide.mount();
+  } ); 
+  */
+  var splide = new Splide( '.splide', {
+  type   : 'loop',
+  drag   : 'free',
+  perPage: 3,
+} );
+
+splide.mount();
+</script>
+
+  </body>
+
+</html>
